@@ -18,3 +18,12 @@ no.addEventListener('mouseover', () =>{
     no.style.left = i + 'px';
     no.style.top = j + 'px';
 });
+
+no.addEventListener('click', () => {
+    const i = Math.floor(Math.random() * 500) + 1;
+
+    const j = Math.floor(Math.random() * 500) + 1;
+
+    no.style.left = i + 'px';
+    no.style.top = j + 'px';
+})
