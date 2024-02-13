@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+}
+.chika{
+    width: 200px;
+    height: auto;
+}
+.body{
+    padding: 150px 0;
+}
+.buttons{
+    margin-top: 20px;
+    letter-spacing: 30px;
+}
+.go{
+    margin-left: 500px;
+    position: absolute;
+    display: flex;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #3ded97;
+    cursor: pointer;
+}
+.no{
+    margin-left: 620px;
+    position: absolute;
+    display: flex;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+}
