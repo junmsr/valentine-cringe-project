@@ -14,9 +14,11 @@
 .buttons{
     margin-top: 20px;
     letter-spacing: 30px;
+    display: flex;
+    justify-content: center;
 }
 .go{
-    margin-left: 500px;
+    margin-left: -150px;
     position: absolute;
     display: flex;
     border: none;
@@ -26,7 +28,8 @@
     cursor: pointer;
 }
 .no{
-    margin-left: 620px;
+    margin-left: 100px;
+    justify-content: center;
     position: absolute;
     display: flex;
     border: none;
